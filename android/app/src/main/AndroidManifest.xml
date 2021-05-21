@@ -1,8 +1,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.background_demo">
    <application
+        
         android:label="background_demo"
         android:icon="@mipmap/ic_launcher">
+
+       <meta-data android:name="com.google.android.geo.API_KEY"
+           android:value="AIzaSyBgPM183wqCm0xAZF4ExZ2qH41fWy0L_fs"/>
+
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
